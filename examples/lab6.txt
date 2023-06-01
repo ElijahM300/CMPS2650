@@ -1,0 +1,26 @@
+a3b
+adcbcbc
+12c5a36
+a5
+3c
+
+wyyz
+wxxz
+wyz
+
+1a2
+1b4
+1c3
+1a3
+
+zip93387
+ZIP956432
+
+int i = 1;
+if(i == 1) {
+    return 1;
+} 
+
+//If statement above
+
+int b = 2;

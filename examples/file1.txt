@@ -1,0 +1,513 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jun06 ?        00:16:34 /lib/systemd/systemd --system --deserialize 52
+root         2     0  0 Jun06 ?        00:00:02 [kthreadd]
+root         3     2  0 Jun06 ?        00:00:00 [rcu_gp]
+root         4     2  0 Jun06 ?        00:00:00 [rcu_par_gp]
+root         6     2  0 Jun06 ?        00:00:00 [kworker/0:0H]
+root         8     2  0 Jun06 ?        00:00:00 [mm_percpu_wq]
+root         9     2  0 Jun06 ?        00:24:04 [ksoftirqd/0]
+root        10     2  0 Jun06 ?        01:15:52 [rcu_sched]
+root        11     2  0 Jun06 ?        00:00:00 [rcu_bh]
+root        12     2  0 Jun06 ?        00:00:10 [migration/0]
+root        14     2  0 Jun06 ?        00:00:00 [cpuhp/0]
+root        15     2  0 Jun06 ?        00:00:00 [cpuhp/1]
+root        16     2  0 Jun06 ?        00:00:10 [migration/1]
+root        17     2  0 Jun06 ?        00:19:25 [ksoftirqd/1]
+root        19     2  0 Jun06 ?        00:00:00 [kworker/1:0H-kblockd]
+root        20     2  0 Jun06 ?        00:00:00 [cpuhp/2]
+root        21     2  0 Jun06 ?        00:00:10 [migration/2]
+root        22     2  0 Jun06 ?        00:00:07 [ksoftirqd/2]
+root        24     2  0 Jun06 ?        00:00:00 [kworker/2:0H]
+root        25     2  0 Jun06 ?        00:00:00 [cpuhp/3]
+root        26     2  0 Jun06 ?        00:00:10 [migration/3]
+root        27     2  0 Jun06 ?        00:00:08 [ksoftirqd/3]
+root        29     2  0 Jun06 ?        00:00:00 [kworker/3:0H-kblockd]
+root        30     2  0 Jun06 ?        00:00:00 [cpuhp/4]
+root        31     2  0 Jun06 ?        00:00:10 [migration/4]
+root        32     2  0 Jun06 ?        00:00:06 [ksoftirqd/4]
+root        34     2  0 Jun06 ?        00:00:00 [kworker/4:0H-kblockd]
+root        35     2  0 Jun06 ?        00:00:00 [cpuhp/5]
+root        36     2  0 Jun06 ?        00:00:10 [migration/5]
+root        37     2  0 Jun06 ?        00:00:30 [ksoftirqd/5]
+root        39     2  0 Jun06 ?        00:00:00 [kworker/5:0H-kblockd]
+root        40     2  0 Jun06 ?        00:00:00 [cpuhp/6]
+root        41     2  0 Jun06 ?        00:00:10 [migration/6]
+root        42     2  0 Jun06 ?        00:00:05 [ksoftirqd/6]
+root        44     2  0 Jun06 ?        00:00:00 [kworker/6:0H-kblockd]
+root        45     2  0 Jun06 ?        00:00:00 [cpuhp/7]
+root        46     2  0 Jun06 ?        00:00:10 [migration/7]
+root        47     2  0 Jun06 ?        00:01:03 [ksoftirqd/7]
+root        49     2  0 Jun06 ?        00:00:00 [kworker/7:0H-kblockd]
+root        50     2  0 Jun06 ?        00:00:00 [cpuhp/8]
+root        51     2  0 Jun06 ?        00:00:10 [migration/8]
+root        52     2  0 Jun06 ?        00:01:21 [ksoftirqd/8]
+root        54     2  0 Jun06 ?        00:00:00 [kworker/8:0H-kblockd]
+root        55     2  0 Jun06 ?        00:00:00 [cpuhp/9]
+root        56     2  0 Jun06 ?        00:00:10 [migration/9]
+root        57     2  0 Jun06 ?        00:01:16 [ksoftirqd/9]
+root        59     2  0 Jun06 ?        00:00:00 [kworker/9:0H-kblockd]
+root        60     2  0 Jun06 ?        00:00:00 [cpuhp/10]
+root        61     2  0 Jun06 ?        00:00:10 [migration/10]
+root        62     2  0 Jun06 ?        00:00:05 [ksoftirqd/10]
+root        64     2  0 Jun06 ?        00:00:00 [kworker/10:0H]
+root        65     2  0 Jun06 ?        00:00:00 [cpuhp/11]
+root        66     2  0 Jun06 ?        00:00:10 [migration/11]
+root        67     2  0 Jun06 ?        00:00:48 [ksoftirqd/11]
+root        69     2  0 Jun06 ?        00:00:00 [kworker/11:0H-kblockd]
+root        70     2  0 Jun06 ?        00:00:00 [cpuhp/12]
+root        71     2  0 Jun06 ?        00:00:10 [migration/12]
+root        72     2  0 Jun06 ?        00:00:04 [ksoftirqd/12]
+root        74     2  0 Jun06 ?        00:00:00 [kworker/12:0H-kblockd]
+root        75     2  0 Jun06 ?        00:00:00 [cpuhp/13]
+root        76     2  0 Jun06 ?        00:00:10 [migration/13]
+root        77     2  0 Jun06 ?        00:00:07 [ksoftirqd/13]
+root        79     2  0 Jun06 ?        00:00:00 [kworker/13:0H-kblockd]
+root        80     2  0 Jun06 ?        00:00:00 [cpuhp/14]
+root        81     2  0 Jun06 ?        00:00:10 [migration/14]
+root        82     2  0 Jun06 ?        00:00:07 [ksoftirqd/14]
+root        84     2  0 Jun06 ?        00:00:00 [kworker/14:0H-kblockd]
+root        85     2  0 Jun06 ?        00:00:00 [cpuhp/15]
+root        86     2  0 Jun06 ?        00:00:10 [migration/15]
+root        87     2  0 Jun06 ?        00:00:19 [ksoftirqd/15]
+root        89     2  0 Jun06 ?        00:00:00 [kworker/15:0H-kblockd]
+root        90     2  0 Jun06 ?        00:00:00 [cpuhp/16]
+root        91     2  0 Jun06 ?        00:00:10 [migration/16]
+root        92     2  0 Jun06 ?        00:00:05 [ksoftirqd/16]
+root        94     2  0 Jun06 ?        00:00:00 [kworker/16:0H-kblockd]
+root        95     2  0 Jun06 ?        00:00:00 [cpuhp/17]
+root        96     2  0 Jun06 ?        00:00:10 [migration/17]
+root        97     2  0 Jun06 ?        00:08:23 [ksoftirqd/17]
+root        99     2  0 Jun06 ?        00:00:00 [kworker/17:0H-kblockd]
+root       100     2  0 Jun06 ?        00:00:00 [cpuhp/18]
+root       101     2  0 Jun06 ?        00:00:10 [migration/18]
+root       102     2  0 Jun06 ?        00:01:17 [ksoftirqd/18]
+root       104     2  0 Jun06 ?        00:00:00 [kworker/18:0H-kblockd]
+root       105     2  0 Jun06 ?        00:00:00 [cpuhp/19]
+root       106     2  0 Jun06 ?        00:00:10 [migration/19]
+root       107     2  0 Jun06 ?        00:00:23 [ksoftirqd/19]
+root       109     2  0 Jun06 ?        00:00:00 [kworker/19:0H]
+root       110     2  0 Jun06 ?        00:00:00 [kdevtmpfs]
+root       111     2  0 Jun06 ?        00:00:00 [netns]
+root       112     2  0 Jun06 ?        00:00:00 [kauditd]
+root       115     2  0 Jun06 ?        00:00:03 [khungtaskd]
+root       116     2  0 Jun06 ?        00:00:00 [oom_reaper]
+root       117     2  0 Jun06 ?        00:00:00 [writeback]
+root       118     2  0 Jun06 ?        00:00:00 [kcompactd0]
+root       119     2  0 Jun06 ?        00:00:00 [ksmd]
+root       120     2  0 Jun06 ?        00:00:53 [khugepaged]
+root       121     2  0 Jun06 ?        00:00:00 [crypto]
+root       122     2  0 Jun06 ?        00:00:00 [kintegrityd]
+root       123     2  0 Jun06 ?        00:00:00 [kblockd]
+root       126     2  0 Jun06 ?        00:00:00 [edac-poller]
+root       127     2  0 Jun06 ?        00:00:00 [devfreq_wq]
+root       128     2  0 Jun06 ?        00:00:00 [watchdogd]
+root       130     2  0 Jun06 ?        00:26:56 [kswapd0]
+root       149     2  0 Jun06 ?        00:00:00 [kthrotld]
+root       150     2  0 Jun06 ?        00:00:00 [ipv6_addrconf]
+root       162     2  0 Jun06 ?        00:00:00 [kstrp]
+root       240     2  0 Jun06 ?        00:00:00 [scsi_eh_0]
+root       241     2  0 Jun06 ?        00:00:00 [scsi_tmf_0]
+root       265     2  0 Jun06 ?        00:00:00 [ata_sff]
+root       278     2  0 Jun06 ?        00:00:00 [scsi_eh_1]
+root       279     2  0 Jun06 ?        00:00:00 [scsi_tmf_1]
+root       298     2  0 Jun06 ?        00:00:00 [scsi_eh_2]
+root       299     2  0 Jun06 ?        00:00:00 [scsi_tmf_2]
+root       300     2  0 Jun06 ?        00:00:00 [scsi_eh_3]
+root       301     2  0 Jun06 ?        00:00:00 [scsi_tmf_3]
+root       302     2  0 Jun06 ?        00:00:00 [scsi_eh_4]
+root       303     2  0 Jun06 ?        00:00:00 [scsi_tmf_4]
+root       304     2  0 Jun06 ?        00:00:00 [scsi_eh_5]
+root       305     2  0 Jun06 ?        00:00:00 [scsi_tmf_5]
+root       310     2  0 Jun06 ?        00:00:00 [scsi_eh_6]
+root       311     2  0 Jun06 ?        00:00:00 [scsi_tmf_6]
+root       312     2  0 Jun06 ?        00:00:00 [scsi_eh_7]
+root       313     2  0 Jun06 ?        00:00:00 [scsi_tmf_7]
+root       314     2  0 Jun06 ?        00:00:00 [scsi_eh_8]
+root       315     2  0 Jun06 ?        00:00:00 [scsi_tmf_8]
+root       316     2  0 Jun06 ?        00:00:00 [scsi_eh_9]
+root       317     2  0 Jun06 ?        00:00:00 [scsi_tmf_9]
+root       318     2  0 Jun06 ?        00:00:00 [scsi_eh_10]
+root       319     2  0 Jun06 ?        00:00:00 [scsi_tmf_10]
+root       320     2  0 Jun06 ?        00:00:00 [scsi_eh_11]
+root       321     2  0 Jun06 ?        00:00:00 [scsi_tmf_11]
+root       322     2  0 Jun06 ?        00:00:00 [scsi_eh_12]
+root       323     2  0 Jun06 ?        00:00:00 [scsi_tmf_12]
+root       331     2  0 Jun06 ?        00:00:08 [kworker/12:1H-kblockd]
+root       332     2  0 Jun06 ?        00:00:08 [kworker/14:1H-kblockd]
+root       338     2  0 Jun06 ?        00:00:10 [kworker/8:1H-kblockd]
+root       339     2  0 Jun06 ?        00:00:08 [kworker/11:1H-kblockd]
+root       340     2  0 Jun06 ?        00:00:00 [poll_mpt3sas0_s]
+root       348     2  0 Jun06 ?        00:00:20 [kworker/9:1H-kblockd]
+root       350     2  0 Jun06 ?        00:00:09 [kworker/3:1H-kblockd]
+root       359     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       366     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       381     2  0 Jun06 ?        00:00:07 [kworker/7:1H-kblockd]
+root       395     2  0 Jun06 ?        00:00:00 [kworker/u41:0]
+root       397     2  0 Jun06 ?        00:00:00 [jbd2/dm-0-8]
+root       398     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root       399     2  0 Jun06 ?        00:00:10 [kworker/4:1H-kblockd]
+root       404     2  0 Jun06 ?        00:00:09 [kworker/13:1H-kblockd]
+root       409     2  0 Jun06 ?        00:00:08 [kworker/18:1H-kblockd]
+root       412     2  0 Jun06 ?        00:00:09 [kworker/5:1H-kblockd]
+root       415     2  0 Jun06 ?        00:00:09 [kworker/1:1H-kblockd]
+root       421     2  0 Jun06 ?        00:00:09 [kworker/17:1H-kblockd]
+root       433     2  0 Jun06 ?        00:00:08 [kworker/10:1H-kblockd]
+root       435     2  0 Jun06 ?        00:00:08 [kworker/19:1H-kblockd]
+root       436     2  0 Jun06 ?        00:00:09 [kworker/2:1H-kblockd]
+root       452     2  0 Jun06 ?        00:00:09 [kworker/16:1H-kblockd]
+root       457     2  0 Jun06 ?        00:00:08 [kworker/15:1H-kblockd]
+root       458     2  0 Jun06 ?        00:00:09 [kworker/0:1H-kblockd]
+root       539  1109  0 14:09 ?        00:00:00 sshd: julloa [priv]
+julloa     601   539  0 14:09 ?        00:00:00 sshd: julloa@pts/18
+julloa     602   601  0 14:09 pts/18   00:00:00 -bash
+root       649     2  0 Jun06 ?        00:00:10 [kworker/6:1H-kblockd]
+root       701     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       702     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       703     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       709     2  0 Jun06 ?        00:00:00 [ttm_swap]
+root       814     2  0 Jun06 ?        00:00:00 [kaluad]
+root       815     2  0 Jun06 ?        00:00:00 [kmpath_rdacd]
+root       816     2  0 Jun06 ?        00:00:00 [kmpathd]
+root       817     2  0 Jun06 ?        00:00:00 [kmpath_handlerd]
+root       818     1  0 Jun06 ?        00:07:49 /sbin/multipathd -d -s
+root       825     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       851     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root       855     2  0 Jun06 ?        00:01:24 [jbd2/dm-2-8]
+root       856     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root       860     2  0 Jun06 ?        00:00:00 [jbd2/dm-4-8]
+root       861     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root       868     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       890     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       891     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       893     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       894     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       895     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       896     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       897     2  0 Jun06 ?        00:00:00 [kdmflush]
+root       943  1109  0 13:31 ?        00:00:00 sshd: nmounmanivon [priv]
+root      1064     1  0 Jun06 ?        00:00:29 /usr/sbin/smartd -n
+root      1066     1  0 Jun06 ?        00:14:21 /usr/sbin/irqbalance --foreground
+root      1070     1  0 Jun06 ?        00:02:40 php-fpm: master process (/etc/php/7.0/fpm/php-fpm.conf)
+root      1071     1  0 Jun06 ?        00:00:12 /usr/lib/udisks2/udisksd
+root      1072     1  0 Jun06 ?        00:05:31 /usr/sbin/rsyslogd -n -iNONE
+avahi     1082     1  0 Jun06 ?        00:05:31 avahi-daemon: running [odin.local]
+root      1085     1  0 Jun06 ?        00:02:48 /usr/sbin/inetd
+root      1086     1  0 Jun06 ?        00:05:22 /lib/systemd/systemd-logind
+message+  1087     1  0 Jun06 ?        00:20:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1098     1  0 Jun06 ?        00:24:42 /usr/sbin/atopacctd
+www-data  1100  1070  0 Jun06 ?        00:00:00 php-fpm: pool www
+www-data  1102  1070  0 Jun06 ?        00:00:00 php-fpm: pool www
+root      1109     1  0 Jun06 ?        00:03:03 /usr/sbin/sshd -D
+root      1110     1  0 Jun06 ?        03:10:19 /usr/sbin/bacula-fd -fP -c /etc/bacula/bacula-fd.conf
+root      1114     1  0 Jun06 ?        00:20:10 /sbin/apcupsd
+root      1132     2  0 Jun06 ?        00:00:08 [jbd2/dm-8-8]
+root      1135     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+avahi     1146  1082  0 Jun06 ?        00:00:00 avahi-daemon: chroot helper
+bind      1149     1  0 Jun06 ?        00:29:29 /usr/sbin/named -u bind -t /var/lib/named
+root      1177     1  0 Jun06 ?        00:07:09 /usr/lib/policykit-1/polkitd --no-debug
+root      1188     2  0 Jun06 ?        00:00:41 [jbd2/dm-13-8]
+root      1189     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+www-data  1213 29983  0 14:30 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1214 29983  0 14:30 ?        00:00:00 /usr/sbin/apache2 -k start
+colord    1215     1  0 Jun06 ?        00:00:00 /usr/lib/colord/colord
+root      1237     1  0 Jun06 ?        00:00:40 /usr/sbin/cron -f
+daemon    1251     1  0 Jun06 ?        00:00:00 /usr/sbin/atd -f
+root      1252     1  0 Jun06 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1301     2  0 11:53 ?        00:00:00 [kworker/5:0-mm_percpu_wq]
+root      1439  1109  0 Aug03 ?        00:00:00 sshd: steve [priv]
+steve     1465  1439  0 Aug03 ?        00:00:17 sshd: steve@pts/8
+steve     1466  1465  0 Aug03 pts/8    00:00:00 -bash
+root      1472     2  0 13:31 ?        00:00:00 [kworker/17:2-mm_percpu_wq]
+julloa    1484   602  0 14:10 pts/18   00:00:00 vi first.html
+root      1770     1  0 Jun06 ?        00:00:00 /usr/bin/perl -w /usr/sbin/psad
+root      1771  1770  0 Jun06 ?        00:00:55 /bin/journalctl -f -k
+root      2076  1114  0 Jun06 ?        00:00:00 [apccontrol] <defunct>
+steve     2277     1  0 Jun06 ?        00:00:18 /lib/systemd/systemd --user
+steve     2280  2277  0 Jun06 ?        00:00:00 (sd-pam)
+root      2297     2  0 Jun06 ?        00:00:09 [jbd2/dm-7-8]
+root      2299     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+nmounma+  2310   943  0 13:32 ?        00:00:00 sshd: nmounmanivon@notty
+nmounma+  2311  2310  0 13:32 ?        00:00:00 bash
+nmounma+  2354  2311  0 13:32 ?        00:00:00 sh /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/stu/nmounmanivon/.vscode-server/.3866c3553be8b268c8a7f8c0482c0c0177aa8bfa.token
+steve     2357  9927  0 Aug18 pts/2    00:00:00 tmux -2 new-session -t 1 -s _1-2357
+nmounma+  2362  2354  0 13:32 ?        00:00:07 /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/stu/nmounmanivon/.vscode-server/.3866c3553be8b268c8a7f8c0482c0c0177aa8bfa.token
+www-data  2420 29983  0 14:30 ?        00:00:00 /usr/sbin/apache2 -k start
+nmounma+  2424  2362  0 13:32 ?        00:00:05 /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/bootstrap-fork --type=ptyHost
+melissa   2438     1  0 Jun07 ?        00:00:18 /lib/systemd/systemd --user
+melissa   2439  2438  0 Jun07 ?        00:00:00 (sd-pam)
+root      2496     2  0 Jun06 ?        00:10:03 [jbd2/dm-9-8]
+root      2497     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root      2504     2  0 Jun06 ?        00:02:51 [jbd2/dm-11-8]
+root      2505     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+root      2507     2  0 Jun06 ?        00:00:05 [jbd2/dm-10-8]
+root      2508     2  0 Jun06 ?        00:00:00 [ext4-rsv-conver]
+bacula    2544     1  0 Jun06 ?        07:42:45 /usr/sbin/bacula-sd -fP -c /etc/bacula/bacula-sd.conf
+www-data  2684 29983  0 Aug22 ?        00:00:00 /usr/sbin/apache2 -k start
+bacula    2767     1  0 Jun06 ?        00:02:20 /usr/sbin/bacula-dir -fP -c /etc/bacula/bacula-dir.conf
+root      2806     2  0 Jun20 ?        00:00:00 [xfsalloc]
+root      2807     2  0 Jun20 ?        00:00:00 [xfs_mru_cache]
+root      2815     2  0 Jun20 ?        00:00:00 [jfsIO]
+root      2816     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2817     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2818     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2819     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2820     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2821     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2822     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2823     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2824     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2825     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2826     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2827     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2828     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2829     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2830     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2831     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2832     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2833     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2834     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2835     2  0 Jun20 ?        00:00:00 [jfsCommit]
+root      2836     2  0 Jun20 ?        00:00:00 [jfsSync]
+root      2961  1109  0 13:32 ?        00:00:00 sshd: nmounmanivon [priv]
+root      3054  1109  0 14:31 ?        00:00:00 sshd: gcaragchiu [priv]
+Debian-+  3172     1  0 Jun06 ?        00:00:16 /usr/sbin/exim4 -bd -q30m
+ntp       3205     1  0 Jun06 ?        00:03:28 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 114:120
+gcaragc+  3302     1  0 14:31 ?        00:00:00 /lib/systemd/systemd --user
+gcaragc+  3303  3302  0 14:31 ?        00:00:00 (sd-pam)
+root      3313     2  0 14:31 ?        00:00:00 [kworker/15:0-cgroup_destroy]
+gcaragc+  3318  3054  0 14:31 ?        00:00:00 sshd: gcaragchiu@pts/14
+gcaragc+  3319  3318  0 14:31 pts/14   00:00:00 -bash
+root      4003  1109  0 Jul12 ?        00:00:00 sshd: melissa [priv]
+melissa   4012  4003  0 Jul12 ?        00:00:13 sshd: melissa@pts/1
+melissa   4013  4012  0 Jul12 pts/1    00:00:00 -bash
+melissa   4066  4013  0 Jul12 pts/1    00:00:06 screen
+melissa   4067  4066  0 Jul12 ?        00:00:08 SCREEN
+melissa   4068  4067  0 Jul12 pts/4    00:00:00 -/bin/bash
+nmounma+  4187  2961  0 13:33 ?        00:00:01 sshd: nmounmanivon@notty
+nmounma+  4188  4187  0 13:33 ?        00:00:00 bash
+nmounma+  4261  2362  0 13:33 ?        00:00:04 /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/stu/nmounmanivon/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/vs/server/uriTransformer.js
+nmounma+  4417  2424  0 13:33 pts/23   00:00:00 /bin/bash
+root      4573     2  0 14:32 ?        00:00:00 [kworker/9:0-mm_percpu_wq]
+root      4700     2  0 13:53 ?        00:00:00 [kworker/0:0-events]
+root      5901  1109  0 11:03 ?        00:00:00 sshd: dmacias [priv]
+dmacias   6158     1  0 11:04 ?        00:00:01 /lib/systemd/systemd --user
+dmacias   6159  6158  0 11:04 ?        00:00:00 (sd-pam)
+www-data  6174 29983  0 14:33 ?        00:00:00 /usr/sbin/apache2 -k start
+dmacias   6175  5901  0 11:04 ?        00:00:00 sshd: dmacias@pts/29
+dmacias   6176  6175  0 11:04 pts/29   00:00:00 -bash
+root      6499     2  0 13:54 ?        00:00:00 [kworker/13:1-mm_percpu_wq]
+mysql     6623     1  0 Jun20 ?        09:44:48 /usr/sbin/mysqld
+root      6791     2  0 13:54 ?        00:00:00 [kworker/10:0-events]
+root      7036  1109  0 14:33 ?        00:00:00 sshd: emorris [priv]
+dmacias   7220  6176  0 13:54 pts/29   00:00:00 vi 3120
+emorris   7265     1  0 14:34 ?        00:00:00 /lib/systemd/systemd --user
+emorris   7266  7265  0 14:34 ?        00:00:00 (sd-pam)
+root      7305     2  0 14:34 ?        00:00:00 [kworker/19:0-cgroup_destroy]
+emorris   7310  7036  0 14:34 ?        00:00:00 sshd: emorris@pts/17
+emorris   7311  7310  0 14:34 pts/17   00:00:00 -bash
+julloa    7436     1  0 13:54 ?        00:00:00 /lib/systemd/systemd --user
+julloa    7437  7436  0 13:54 ?        00:00:00 (sd-pam)
+root      7707  1109  0 Aug24 ?        00:00:00 sshd: kwesbrook [priv]
+root      7755     1  0 Aug03 ?        00:18:08 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+kwesbro+  8067     1  0 Aug24 ?        00:00:02 /lib/systemd/systemd --user
+kwesbro+  8068  8067  0 Aug24 ?        00:00:00 (sd-pam)
+kwesbro+  8082  7707  0 Aug24 ?        00:00:05 sshd: kwesbrook@notty
+kwesbro+  8083  8082  0 Aug24 ?        00:00:00 bash
+root      8084  1466  0 Aug08 pts/8    00:00:00 sudo -s
+root      8085  8084  0 Aug08 pts/8    00:00:00 /bin/bash
+www-data  8118 29983  0 14:34 ?        00:00:00 /usr/sbin/apache2 -k start
+root      8126     2  0 14:34 ?        00:00:00 [kworker/u40:2-events_unbound]
+kwesbro+  8128  8083  0 Aug24 ?        00:00:00 sh /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/stu/kwesbrook/.vscode-server/.3866c3553be8b268c8a7f8c0482c0c0177aa8bfa.token
+kwesbro+  8136  8128  0 Aug24 ?        00:00:33 /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/stu/kwesbrook/.vscode-server/.3866c3553be8b268c8a7f8c0482c0c0177aa8bfa.token
+kwesbro+  8250  8136  0 Aug24 ?        00:00:30 /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/bootstrap-fork --type=ptyHost
+steve     8265 13971  0 Aug18 pts/0    00:00:00 tmux -u -2 -f /usr/share/byobu/profiles/tmuxrc new-session -n - /usr/bin/byobu-shell
+steve     8297     1  0 Aug18 ?        01:33:11 tmux -u -2 -f /usr/share/byobu/profiles/tmuxrc new-session -n - /usr/bin/byobu-shell
+steve     8304  8297  0 Aug18 pts/11   00:00:00 /bin/bash
+root      8329  1109  0 11:05 ?        00:00:00 sshd: dfanucchi [priv]
+steve     8365  8304  0 Aug18 pts/11   00:01:30 alpine
+dfanucc+  8455     1  0 11:05 ?        00:00:01 /lib/systemd/systemd --user
+dfanucc+  8456  8455  0 11:05 ?        00:00:00 (sd-pam)
+dfanucc+  8470  8329  0 11:05 ?        00:00:00 sshd: dfanucchi@pts/32
+dfanucc+  8499  8470  0 11:05 pts/32   00:00:00 -bash
+root      8518  1109  0 13:15 ?        00:00:00 sshd: kwesbrook [priv]
+root      8929     2  0 14:14 ?        00:00:00 [kworker/12:2-mm_percpu_wq]
+kwesbro+  8958  8518  0 13:16 ?        00:00:05 sshd: kwesbrook@notty
+kwesbro+  8959  8958  0 13:16 ?        00:00:00 bash
+kwesbro+  9011  8136  0 13:16 ?        00:00:00 /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/bootstrap-fork --type=watcherService
+kwesbro+  9018  8136  0 13:16 ?        00:00:47 /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/node /home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/stu/kwesbrook/.vscode-server/bin/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/out/vs/server/uriTransformer.js
+kwesbro+  9331  9018  0 13:16 ?        00:00:24 /home/stu/kwesbrook/.vscode-server/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools
+melissa   9580     1  0 Jun21 ?        00:00:00 sh -c (soffice --nologo --calc '/tmp/img-VND.M-62437.xls' ;  sleep 5 ; rm -f /tmp/img-VND.M-62437.xls) & 
+melissa   9581  9580  0 Jun21 ?        00:00:09 /usr/lib/libreoffice/program/oosplash --nologo --calc /tmp/img-VND.M-62437.xls
+melissa   9598  9581  0 Jun21 ?        00:03:19 /usr/lib/libreoffice/program/soffice.bin --nologo --calc /tmp/img-VND.M-62437.xls
+root      9621     2  0 14:15 ?        00:00:00 [kworker/17:1-events]
+root      9644     2  0 14:15 ?        00:00:00 [kworker/4:0]
+root      9700     2  0 11:40 ?        00:00:00 [kworker/11:2-mm_percpu_wq]
+root      9920  1109  0 Aug02 ?        00:00:00 sshd: steve [priv]
+steve     9926  9920  0 Aug02 ?        00:06:00 sshd: steve@pts/2
+steve     9927  9926  0 Aug02 pts/2    00:00:00 -bash
+root     11070  1109  0 14:36 ?        00:00:00 sshd: rdelarosa [priv]
+rdelaro+ 11073     1  0 14:36 ?        00:00:00 /lib/systemd/systemd --user
+rdelaro+ 11074 11073  0 14:36 ?        00:00:00 (sd-pam)
+root     11083     2  0 14:36 ?        00:00:00 [kworker/18:2]
+rdelaro+ 11089 11070  0 14:36 ?        00:00:00 sshd: rdelarosa@notty
+rdelaro+ 11096 11089  0 14:36 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     11455  1109  0 13:57 ?        00:00:00 sshd: julloa [priv]
+kwesbro+ 11552  9331  0 14:16 ?        00:00:01 /home/stu/kwesbrook/.vscode-server/extensions/ms-vscode.cpptools-1.6.0/bin/cpptools-srv 9331 {FCA8B807-10BC-4B8D-8DB9-08BA37F2987C}
+root     11723     1  0 Jul21 ?        00:09:19 /lib/systemd/systemd-journald
+julloa   11750 11455  0 13:57 ?        00:00:00 sshd: julloa@pts/27
+julloa   11751 11750  0 13:57 pts/27   00:00:00 -bash
+root     11910     2  0 13:17 ?        00:00:00 [kworker/18:0-mm_percpu_wq]
+www-data 12036 29983  0 14:16 ?        00:00:00 /usr/sbin/apache2 -k start
+julloa   12109 11751  0 13:57 pts/27   00:00:00 vi what.cpp
+root     12205     2  0 14:36 ?        00:00:00 [kworker/6:0-mm_percpu_wq]
+root     12338  1109  0 13:18 ?        00:00:00 sshd: chernandez [priv]
+root     12439  1109  0 Aug04 ?        00:00:00 sshd: steve [priv]
+steve    12445 12439  0 Aug04 ?        00:14:05 sshd: steve@notty
+steve    12446 12445  0 Aug04 ?        00:08:41 /usr/lib/openssh/sftp-server
+chernan+ 12684     1  0 13:18 ?        00:00:00 /lib/systemd/systemd --user
+chernan+ 12685 12684  0 13:18 ?        00:00:00 (sd-pam)
+chernan+ 12699 12338  0 13:18 ?        00:00:00 sshd: chernandez@pts/7
+chernan+ 12700 12699  0 13:18 pts/7    00:00:00 -bash
+root     12796     2  0 13:38 ?        00:00:00 [kworker/16:0-mm_percpu_wq]
+nobeid   13026     1  0 08:59 ?        00:00:01 /lib/systemd/systemd --user
+nobeid   13027 13026  0 08:59 ?        00:00:00 (sd-pam)
+root     13194  1109  0 11:06 ?        00:00:00 sshd: smerino [priv]
+smerino  13294     1  0 11:06 ?        00:00:01 /lib/systemd/systemd --user
+smerino  13296 13294  0 11:06 ?        00:00:00 (sd-pam)
+root     13302     2  0 13:38 ?        00:00:00 [kworker/11:0-cgroup_destroy]
+smerino  13320 13194  0 11:06 ?        00:00:00 sshd: smerino@pts/16
+smerino  13326 13320  0 11:06 pts/16   00:00:00 -bash
+root     13595  1109  0 Aug23 ?        00:00:00 sshd: steve [priv]
+root     13605  1109  0 Aug04 ?        00:00:00 sshd: steve [priv]
+steve    13625 13595  0 Aug23 ?        00:00:00 sshd: steve@pts/19
+steve    13626 13625  0 Aug23 pts/19   00:00:00 -bash
+root     13702 13626  0 Aug23 pts/19   00:00:00 sudo -s
+nmounma+ 13769     1  0 10:47 ?        00:00:01 /lib/systemd/systemd --user
+nmounma+ 13770 13769  0 10:47 ?        00:00:00 (sd-pam)
+root     13812     1  0 Jul21 ?        00:00:03 /lib/systemd/systemd-udevd
+root     13951 13702  0 Aug23 pts/19   00:00:00 /bin/bash
+steve    13970 13605  0 Aug04 ?        00:05:51 sshd: steve@pts/0
+steve    13971 13970  0 Aug04 pts/0    00:00:00 -bash
+root     14177  1109  0 14:17 ?        00:00:00 sshd: nvick [priv]
+root     14226     1  0 00:00 ?        00:00:30 /usr/bin/atop -R -w /var/log/atop/atop_20210825 600
+root     14313     2  0 14:18 ?        00:00:00 [kworker/15:1-mm_percpu_wq]
+root     14314     2  0 14:18 ?        00:00:00 [kworker/5:2-cgroup_destroy]
+root     14332     2  0 14:38 ?        00:00:00 [kworker/12:1]
+nvick    14337     1  0 14:18 ?        00:00:00 /lib/systemd/systemd --user
+nvick    14338 14337  0 14:18 ?        00:00:00 (sd-pam)
+root     14348     2  0 14:18 ?        00:00:00 [kworker/14:2]
+nvick    14353 14177  0 14:18 ?        00:00:00 sshd: nvick@pts/12
+nvick    14354 14353  0 14:18 pts/12   00:00:00 -bash
+root     14513     2  0 12:39 ?        00:00:00 [kworker/12:0-mm_percpu_wq]
+root     14526  1109  0 Aug23 ?        00:00:00 sshd: steve [priv]
+steve    14532 14526  0 Aug23 ?        00:00:00 sshd: steve@pts/28
+steve    14535 14532  0 Aug23 pts/28   00:00:00 -bash
+root     14674     2  0 13:58 ?        00:00:00 [kworker/7:1-cgroup_destroy]
+root     14879 14535  0 Aug23 pts/28   00:00:00 sudo -s
+root     14977 14879  0 Aug23 pts/28   00:00:00 /bin/bash
+root     15000  1109  0 09:01 ?        00:00:00 sshd: nobeid [priv]
+nobeid   15081 15000  0 09:01 ?        00:00:00 sshd: nobeid@notty
+nobeid   15094 15081  0 09:01 ?        00:00:00 bash
+root     15105  1109  0 Aug24 ?        00:00:00 sshd: msarr [priv]
+root     15108     2  0 14:38 ?        00:00:00 [kworker/17:0-mm_percpu_wq]
+root     15336     2  0 14:38 ?        00:00:00 [kworker/9:2-mm_percpu_wq]
+root     15374     2  0 12:40 ?        00:00:00 [kworker/10:1-mm_percpu_wq]
+msarr    15392 15105  0 Aug24 ?        00:00:00 sshd: msarr@pts/35
+msarr    15394 15392  0 Aug24 pts/35   00:00:00 -bash
+root     15485     2  0 12:40 ?        00:00:00 [kworker/13:0-cgroup_destroy]
+root     15562     2  0 13:59 ?        00:00:00 [kworker/u40:0-events_unbound]
+root     15688  1109  0 09:01 ?        00:00:00 sshd: nobeid [priv]
+root     15733     2  0 13:00 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+nobeid   15779 15688  0 09:01 ?        00:00:00 sshd: nobeid@notty
+nobeid   15780 15779  0 09:01 ?        00:00:00 bash
+root     16052  1109  0 14:19 ?        00:00:00 sshd: xreyes [priv]
+root     16154     2  0 Aug24 ?        00:00:01 [kworker/14:1-events]
+www-data 16230 29983  0 10:49 ?        00:00:00 /usr/sbin/apache2 -k start
+root     16445  1109  0 Aug04 ?        00:00:00 sshd: steve [priv]
+steve    16451 16445  0 Aug04 ?        00:06:54 sshd: steve@notty
+steve    16462 16451  0 Aug04 ?        00:02:45 /usr/lib/openssh/sftp-server
+nmounma+ 16482  4188  0 14:39 ?        00:00:00 sleep 180
+www-data 16860 29983  0 14:19 ?        00:00:00 /usr/sbin/apache2 -k start
+kwesbro+ 17110  8959  0 14:40 ?        00:00:00 sleep 180
+nobeid   17165 15094  0 14:40 ?        00:00:00 sleep 180
+xreyes   17361     1  0 14:19 ?        00:00:00 /lib/systemd/systemd --user
+xreyes   17362 17361  0 14:19 ?        00:00:00 (sd-pam)
+root     17372     2  0 14:19 ?        00:00:00 [kworker/3:2-cgroup_destroy]
+xreyes   17377 16052  0 14:19 ?        00:00:00 sshd: xreyes@pts/13
+xreyes   17378 17377  0 14:19 pts/13   00:00:00 -bash
+nobeid   17697 15780  0 14:40 ?        00:00:00 sleep 180
+root     18235     2  0 13:01 ?        00:00:00 [kworker/8:0-mm_percpu_wq]
+kwesbro+ 18357  8083  0 14:40 ?        00:00:00 sleep 180
+root     18854     2  0 14:41 ?        00:00:00 [kworker/11:1-cgroup_destroy]
+melissa  18878  4068  2 14:41 pts/4    00:00:01 alpine
+nmounma+ 19162  2311  0 14:41 ?        00:00:00 sleep 180
+root     19194  1109  0 11:09 ?        00:00:00 sshd: kwood [priv]
+steve    19203     1  0 Aug16 ?        00:00:00 kdeinit5: Running...
+steve    19204 19203  0 Aug16 ?        00:00:19 /usr/lib/x86_64-linux-gnu/libexec/kf5/klauncher --fd=8
+kwood    19324     1  0 11:09 ?        00:00:01 /lib/systemd/systemd --user
+kwood    19325 19324  0 11:09 ?        00:00:00 (sd-pam)
+kwood    19339 19194  0 11:09 ?        00:00:00 sshd: kwood@pts/25
+kwood    19340 19339  0 11:09 pts/25   00:00:00 -bash
+nmounma+ 19555  4417  0 14:01 pts/23   00:00:00 cpp -o -main1.cpp
+nmounma+ 19556 19555  0 14:01 pts/23   00:00:00 /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -E -quiet -imultiarch x86_64-linux-gnu - -o -main1.cpp -mtune=generic -march=x86-64
+root     19559     2  0 Aug24 ?        00:00:01 [kworker/6:1-mm_percpu_wq]
+root     19738  1109  0 12:24 ?        00:00:00 sshd: melissa [priv]
+melissa  19974 19738  0 12:24 ?        00:00:00 sshd: melissa@pts/5
+melissa  19976 19974  0 12:24 pts/5    00:00:00 -bash
+root     20428     2  0 14:42 ?        00:00:00 [kworker/u40:3-events_unbound]
+msarr    20449 29787  0 14:42 ?        00:00:00 sleep 180
+emorris  20710  7311  0 14:42 pts/17   00:00:00 ps -ef
+kwesbro+ 20961  8250  0 14:02 pts/3    00:00:00 /bin/bash
+root     21233  1109  0 11:47 ?        00:00:00 sshd: ekhalil [priv]
+ekhalil  21355     1  0 11:47 ?        00:00:00 /lib/systemd/systemd --user
+ekhalil  21356 21355  0 11:47 ?        00:00:00 (sd-pam)
+ekhalil  21371 21233  0 11:47 ?        00:00:00 sshd: ekhalil@pts/34
+ekhalil  21372 21371  0 11:47 pts/34   00:00:00 -bash
+root     22119     1  0 Aug22 ?        00:00:15 /usr/sbin/cupsd -l
+root     22120     1  0 Aug22 ?        00:00:16 /usr/sbin/cups-browsed
+lp       22209 22119  0 Aug22 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root     22442     2  0 12:44 ?        00:00:00 [kworker/19:1-mm_percpu_wq]
+melissa  23179  2438  0 Aug24 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+melissa  23181  2438  0 Aug24 ?        00:00:00 /usr/lib/gvfs/gvfsd
+root     23204     2  0 12:06 ?        00:00:00 [kworker/9:1-mm_percpu_wq]
+www-data 23272 29983  0 14:23 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 23274 29983  0 14:23 ?        00:00:00 /usr/sbin/apache2 -k start
+root     23586     2  0 12:26 ?        00:00:00 [kworker/7:0-events_power_efficient]
+root     23781     1  0 Jul06 ?        00:01:42 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+www-data 23782 23781  0 Jul06 ?        00:00:00 php-fpm: pool www
+www-data 23783 23781  0 Jul06 ?        00:00:00 php-fpm: pool www
+nmounma+ 24386  2424  0 14:04 pts/10   00:00:00 /bin/bash
+steve    24618  2277  0 Jun07 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+steve    24620  2277  0 Jun07 ?        00:00:00 /usr/lib/gvfs/gvfsd
+steve    24670  2277  0 Jun07 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+rtkit    24717     1  0 Jun07 ?        00:00:46 /usr/lib/rtkit/rtkit-daemon
+root     25516     2  0 11:48 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root     25772     2  0 11:49 ?        00:00:00 [kworker/3:0-mm_percpu_wq]
+root     26200     1  0 Jun07 ?        00:00:03 /usr/lib/upower/upowerd
+root     26433     2  0 14:05 ?        00:00:00 [kworker/8:2-cgroup_destroy]
+root     26434     2  0 14:05 ?        00:00:00 [kworker/16:2-cgroup_destroy]
+root     26478     2  0 14:05 ?        00:00:00 [kworker/2:1-events]
+www-data 26696 29983  0 14:25 ?        00:00:00 /usr/sbin/apache2 -k start
+root     27001     2  0 14:25 ?        00:00:00 [kworker/u40:1-events_unbound]
+root     28278     2  0 11:50 ?        00:00:00 [kworker/4:2-mm_percpu_wq]
+root     28369     2  0 14:06 ?        00:00:00 [kworker/1:2-cgroup_destroy]
+root     28443  1109  0 Aug23 ?        00:00:00 sshd: steve [priv]
+steve    28449 28443  0 Aug23 ?        00:00:00 sshd: steve@pts/45
+steve    28450 28449  0 Aug23 pts/45   00:00:00 -bash
+steve    28728 28450  0 Aug23 pts/45   00:00:00 less /etc/passwd
+root     29666  1109  0 07:00 ?        00:00:00 sshd: msarr [priv]
+msarr    29786 29666  0 07:00 ?        00:00:00 sshd: msarr@notty
+msarr    29787 29786  0 07:00 ?        00:00:00 bash
+root     29983     1  0 Jul09 ?        00:02:39 /usr/sbin/apache2 -k start
+root     30799  1109  0 Aug08 ?        00:00:00 sshd: steve [priv]
+steve    30828 30799  0 Aug08 ?        00:00:03 sshd: steve@pts/9
+steve    30829 30828  0 Aug08 pts/9    00:00:00 -bash
+root     30926  1109  0 Aug06 ?        00:00:00 sshd: steve [priv]
+steve    30932 30926  0 Aug06 ?        00:00:03 sshd: steve@pts/6
+steve    30933 30932  0 Aug06 pts/6    00:00:00 -bash
+root     30934 30829  0 Aug08 pts/9    00:00:00 sudo -s
+root     31001 30934  0 Aug08 pts/9    00:00:00 /bin/bash
+root     31505     2  0 14:28 ?        00:00:00 [kworker/0:2-events]
+msarr    32367     1  0 Aug23 ?        00:00:10 /lib/systemd/systemd --user
+msarr    32369 32367  0 Aug23 ?        00:00:00 (sd-pam)
+www-data 32744 29983  0 Aug22 ?        00:00:00 /usr/sbin/apache2 -k start
